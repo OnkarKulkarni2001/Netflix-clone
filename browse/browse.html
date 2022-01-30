@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse</title>
+  <link rel="stylesheet" href="browse.css" />
+</head>
+
+<body>
+  <div class="main">
+    <header>
+      <div class="navbar">
+        <ul>
+          <li class="logo"><a href="../index.html"><img src="../netflix/HelloIMG1642238625553.png"/></a></li>
+          <li><a href="#" onclick="myFilms()">Films</a></li>
+          <li><a href="#" onclick="mySeries()">Series</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="Joker">
+      <h2>Watch Joker Now</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eum tenetur, rerum repudiandae ducimus ipsam
+        sint maiores culpa fuga, voluptatum sequi qui, eaque magni omnis. Asperiores numquam magni a facere. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Sunt placeat, provident reiciendis eius ab, quod blanditiis alias
+        ratione corporis rerum dicta deserunt ducimus atque vitae distinctio nulla quidem aspernatur incidunt!</p>
+      <button class="play-btn">Play</button>
+      <div class="trailer">
+        <video src="../browse/videos/video.mp4" controls="true"></video>
+        <span class="close">&times;</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-display-items">
+    <div class="films" id="films" style="display: none;">
+        <div class="drama">
+            <h2>Drama</h2>
+            <div class="images">
+                <img src="../browse/images/films/drama/fight-club/small.jpg" alt="">
+                <img src="../browse/images/films/drama/kings-speech/small.jpg" alt="">
+                <img src="../browse/images/films/drama/the-prestige/small.jpg" alt="">
+                <img src="../browse/images/films/drama/the-revenant/small.jpg" alt="">
+                <img src="../browse/images/films/drama/the-social-network/small.jpg" alt="">
+            </div>
+        </div>
+        <div class="children">
+            <h2>Children</h2>
+            <div class="images">
+                <img src="../browse/images/films/children/despicable-me/small.jpg" alt="">
+                <img src="../browse/images/films/children/frozen/small.jpg" alt="">
+                <img src="../browse/images/films/children/hotel-transylvania/small.jpg" alt="">
+                <img src="../browse/images/films/children/spirited-away/small.jpg" alt="">
+                <img src="../browse/images/films/children/up/small.jpg" alt="">
+            </div>
+        </div>
+        <div class="thriller">
+            <h2>Thriller</h2>
+            <div class="images">
+                <img src="../browse/images/films/thriller/a-quiet-place/small.jpg" alt="">
+                <img src="../browse/images/films/thriller/black-swan/small.jpg" alt="">
+                <img src="../browse/images/films/thriller/joker/small.jpg" alt="">
+                <img src="../browse/images/films/thriller/nightcrawler/small.jpg" alt="">
+                <img src="../browse/images/films/thriller/the-silence-of-the-lambs/small.jpg" alt="">
+            </div>
+        </div>
+        <div class="Suspense">
+            <h2>Suspense</h2>
+            <div class="images">
+                <img src="../browse/images/films/suspense/gone-girl/small.jpg" alt="">
+                <img src="../browse/images/films/suspense/prisoners/small.jpg" alt="">
+                <img src="../browse/images/films/suspense/seven/small.jpg" alt="">
+                <img src="../browse/images/films/suspense/shutter-island/small.jpg" alt="">
+                <img src="../browse/images/films/suspense/zodiac/small.jpg" alt="">
+            </div>
+        </div>
+        <div class="romance">
+            <h2>Romance</h2>
+            <div class="images">
+                <img src="../browse/images/films/romance/a-star-is-born/small.jpg" alt="">
+                <img src="../browse/images/films/romance/blue-valentine/small.jpg" alt="">
+                <img src="../browse/images/films/romance/la-la-land/small.jpg" alt="">
+                <img src="../browse/images/films/romance/the-notebook/small.jpg" alt="">
+                <img src="../browse/images/films/romance/titanic/small.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="series" id="series" style="display: none;">
+        <div class="children-series">
+            <h2>Children</h2>
+            <div class="images">
+                <img src="../browse/images/series/children/arthur/small.jpg" alt="">
+                <img src="../browse/images/series/children/dora-the-explorer/small.jpg" alt="">
+                <img src="../browse/images/series/children/paw-patrol/small.jpg" alt="">
+                <img src="../browse/images/series/children/peppa-pig/small.jpg" alt="">
+                <img src="../browse/images/series/children/spongebob/small.jpg" alt="">
+            </div>
+        </div>
+        <div class="comedies">
+            <h2>Comedies</h2>
+            <div class="images">
+                <img src="../browse/images/series/comedies/arrested-development/small.jpg" alt="">
+                <img src="../browse/images/series/comedies/curb-your-enthusiasm/small.jpg" alt="">
+                <img src="../browse/images/series/comedies/family-guy/small.jpg" alt="">
+                <img src="../browse/images/series/comedies/south-park/small.jpg" alt="">
+                <img src="../browse/images/series/comedies/the-office/small.jpg" alt="">
+            </div>
+        </div>
+        <div class="crime">
+            <h2>Crime</h2>
+            <div class="images">
+                <img src="../browse/images/series/crime/long-shot/small.jpg" alt="">
+                <img src="../browse/images/series/crime/making-a-murderer/small.jpg" alt="">
+                <img src="../browse/images/series/crime/the-confession-killer/small.jpg" alt="">
+                <img src="../browse/images/series/crime/the-innocent-man/small.jpg" alt="">
+                <img src="../browse/images/series/crime/the-staircase/small.jpg" alt="">
+            </div>
+        </div>
+        <div class="documentaries">
+            <h2>Documentaries</h2>
+            <div class="images">
+                <img src="../browse/images/series/documentaries/amanda-knox/small.jpg" alt="">
+                <img src="../browse/images/series/documentaries/citizenfour/small.jpg" alt="">
+                <img src="../browse/images/series/documentaries/man-on-wire/small.jpg" alt="">
+                <img src="../browse/images/series/documentaries/super-size-me/small.jpg" alt="">
+                <img src="../browse/images/series/documentaries/tiger-king/small.jpg" alt="">
+            </div>
+        </div>
+        <div class="feel-good">
+            <h2>Feel Good</h2>
+            <div class="images">
+                <img src="../browse/images/series/feel-good/forrest-gump/small.jpg" alt="">
+                <img src="../browse/images/series/feel-good/good-will-hunting/small.jpg" alt="">
+                <img src="../browse/images/series/feel-good/juno/small.jpg" alt="">
+                <img src="../browse/images/series/feel-good/midnight-in-paris/small.jpg" alt="">
+                <img src="../browse/images/series/feel-good/school-of-rock/small.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="footer">
+
+
+      <div class="footercon">
+          <div class="flex1">
+
+              <h5>Questions? Contact us
+              </h5>
+
+          </div>
+
+          <ul class="list1">
+
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Investor Relations</a></li>
+              <li><a href="">Privacy</a></li>
+
+              <li><a href="">Speed Test</a></li>
+
+          </ul>
+          <ul class="list1">
+              <li><a href="">Help Centre</a></li>
+              <li><a href="">Jobs</a></li>
+              <li><a href="">Cookie Preferences</a></li>
+              <li><a href="">Legal Notices</a></li>
+
+          </ul>
+          <ul class="list1">
+              <li><a href="">Account</a></li>
+              <li><a href="">Ways to Watch</a></li>
+              <li><a href="">Corporate Information</a></li>
+              <li><a href="">Only on Netflix</a></li>
+
+
+          </ul>
+          <ul class="list1">
+              <li><a href="">Media Centre</a></li>
+              <li><a href="">Terms of USe</a></li>
+              <li><a href="">Contact Us</a></li>
+
+
+
+          </ul>
+          <div class="end">
+              <h2>
+                  Netflix India
+              </h2>
+              <h2>
+              </h2>
+          </div>
+
+<script src="browse.js"></script>
+<script src="video.js"></script>
+</body>
+
+</html>
